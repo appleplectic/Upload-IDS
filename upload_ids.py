@@ -88,7 +88,7 @@ def main(uspto_email:str, uspto_password:str, imap_server:str, imap_email:str, i
     button.click()
     button.send_keys(uspto_password)
     # reCaptcha
-    input("Enter CAPTCHA; When done, press ENTER to continue...")
+    easygui.msgbox("Complete the reCAPTCHA; When done (or if there is no CAPTCHA), click the OK button to continue.", 'Upload IDS Files')
 
     try:
         button = wait_until_clickable(driver, '//*[@id="siw-enter-pwd-form"]/fieldset/div[4]/button')
