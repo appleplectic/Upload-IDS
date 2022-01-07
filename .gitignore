@@ -1,0 +1,18 @@
+# Testing Files
+testing.ipynb
+testing.py
+
+# Jupyter Notebooks
+*.ipynb_checkpoints
+
+# Pyinstaller
+build/
+dist/
+*.spec
+*.manifest
+
+# Optimized files for imports
+__pycache/
+
+# Enviornment Variables
+.env
