@@ -14,7 +14,7 @@ import time
 
 # Importing Exterior Modules
 import easygui
-from selenium.webdriver.chrome.webdriver import WebDriver
+#from selenium.webdriver.chrome.webdriver import WebDriver
 import undetected_chromedriver as uc
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.chrome.options import Options
