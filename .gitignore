@@ -16,3 +16,9 @@ __pycache/
 
 # Enviornment Variables
 .env
+
+# macOS Files
+.DS_STORE
+
+# Windows
+desktop.ini
